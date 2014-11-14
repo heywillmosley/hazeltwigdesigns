@@ -1,0 +1,38 @@
+core = 7.x
+name = Default
+description = A responsive theme focused on increasing sales and happier customers.
+base theme = omega
+
+; CORE REGIONS - DISABLED
+
+ 
+; CORE REGIONS - REQUIRED
+regions[styles_js] = Inline Styles and Javascript
+regions[page_top] = Page Top
+regions[content] = Content
+regions[page_bottom] = Page Bottom
+ 
+; CORE REGIONS
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+ 
+; CUSTOM REGIONS
+regions[global_nav] = Global Nav
+regions[app_nav] = App Nav
+regions[breadcrumbs] = Breadcrumbs
+regions[admin_first] = Admin First
+regions[ceiling] = Ceiling
+regions[promo_top] = Promo Top
+regions[content_second_a] = Content Second A
+regions[content_second_b] = Content Second B
+regions[side_nav] = Side Navigation
+regions[floor] = Floor
+regions[footer_first] = Footer First
+regions[development] = Development
+
+; STYLES
+stylesheets[screen][] = css/site.min.css
+
+; SCRIPTS

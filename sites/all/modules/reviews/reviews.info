@@ -1,0 +1,23 @@
+name = Reviews
+description = Allow users to leave reviews on site content.
+core = 7.x
+configure = admin/config/content/reviews
+
+files[] = views/reviews_handler_field_review.inc
+files[] = views/reviews_handler_field_username.inc
+
+stylesheets[all][] = css/reviews.css
+
+; Information added by drupal.org packaging script on 2013-06-10
+version = "7.x-1.15"
+core = "7.x"
+project = "reviews"
+datestamp = "1370887255"
+
+
+; Information added by drupal.org packaging script on 2013-08-14
+version = "7.x-1.16"
+core = "7.x"
+project = "reviews"
+datestamp = "1376486216"
+
